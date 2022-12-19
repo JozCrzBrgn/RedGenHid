@@ -30,10 +30,12 @@ programación o algoritmos genéticos.
 A continuacion se hará una breve descripción de la interfaz gráfica de usuario de la aplicación. Para una explicación más detallada consultar el capítulo IV de la tesis <LINK>. 
 
 ### Pantalla de: Inicialización.
-<img src="/src_appCDT/esquema0.png">
+Al inicializar el programa aparecerá la ventana de **_Inicialización_** , su función es la de cargar el Progressbar desde cero hasta 100%. El diseño mediante Qt Designer es el siguiente:
+  
+<img src="/src_/init.gif">
 
 ### Menú desplegable.
-<img src="/src_appCDT/esquema0.png">
+<img src="/src_/.gif">
 
 ### Pantalla de: Introducir datos.
 <img src="/src_appCDT/esquema0.png">
