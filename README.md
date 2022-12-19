@@ -3,12 +3,11 @@ __Tesis de posgrado:__ __"ANÁLISIS HIDRÁULICO DE REDES DE DISTRIBUCION DE AGUA
 
 ## _Descripción:_
 A través de una aplicación utilizando Algoritmos Genéticos programada en Python y Qt Designer, se desarrolla un programa para determinar los diámetros más adecuados de tuberías en redes para que al realizar un análisis hidráulico se cumpla con las siguientes características:
-1. El costo y diseño de la red sea el mínimo posible.
-2. Se cumpla con las normas de velocidad y presión dadas por el usuario.
-3. Los resultados dados por el programa deben ser corroborados usando 
-Epanet 2, con un margen de error menor al 1% de los datos buscados.
-4. Usar el programa computacional no requiere un conocimiento profundo de 
-programación o algoritmos genéticos.
+
+1. Que el costo y diseño de la red sea el mínimo posible.
+2. Que se cumpla con las normas de velocidad y presión dadas por el usuario.
+3. Los resultados dados por el programa deben ser corroborados usando Epanet 2, con un margen de error menor al 1% de los datos buscados.
+4. Usar el programa computacional no requiera un conocimiento profundo de programación o algoritmos genéticos.
 
 ## _Objetivos:_
 <ul>
@@ -21,8 +20,9 @@ programación o algoritmos genéticos.
 
 ## _Tecnologías usadas:_
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
 ![Adobe_Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white)
 
@@ -87,37 +87,6 @@ En esta interfaz se debe dar información adicional al programa antes de poder e
 Debido a que el algoritmo genético tiende a demorar en su ejecución, se informa al usuario el progreso del algoritmo usando un progressbar, de esta forma se sabe cuánto porcentaje de avance lleva. El diseño mediante Qt Designer es el siguiente:
 
 <img src="/src_/circ_prog.gif">
-
-## _Elementos clave y sus clases en python:_
-Como cualquier programa, se hace uso de la POO para poder representar objetos y sus respectivos atributos de la realidad. A continuacion se hará una breve descripción de los objetos utilizados en la aplicación. Para una explicación más detallada consultar el capítulo III de la tesis <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>.. 
-
-### Elemento: Nodo.
-<img src="/src_appCDT/esquema0.png">
-<img src="/src_appCDT/esquema0.png">
-
-### Elemento: Tubería.
-<img src="/src_appCDT/esquema0.png">
-<img src="/src_appCDT/esquema0.png">
-
-### Elemento: Red Hidraulica.
-<img src="/src_appCDT/esquema0.png">
-<img src="/src_appCDT/esquema0.png">
-
-### Elemento: Individuo.
-<img src="/src_appCDT/esquema0.png">
-
-#### Prop1
-#### Prop2
-#### Prop3
-#### Prop4
-
-### Elemento: Algoritmo Genético.
-<img src="/src_appCDT/esquema0.png">
-
-#### Prop1
-#### Prop2
-#### Prop3
-#### Prop4
 
 <h3>
   <i>Puedes descargar una demo dando click en la imagen:</i>
