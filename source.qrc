@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Icon_AG_SinFondo.png</file>
+    <file>Icon_Data_SinFondo.png</file>
+    <file>Icon_Hidraulica_SinFondo.png</file>
+    <file>Icon_Home_SinFondo.png</file>
+  </qresource>
+</RCC>
