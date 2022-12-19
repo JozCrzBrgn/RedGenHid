@@ -39,27 +39,38 @@ Esta es la página con la que se recibe al usuario, su única función es la de 
 
 <img src="/src_/menu.gif">
 
-
-
-
-
-
-
-
 ### Pantalla de: Introducir datos.
-<img src="/src_appCDT/esquema0.png">
+Esta interfaz se compone de dos **_QGroupBox_**, el de **_DATOS_** y el de **_RED HIDRAULICA_** que se describen a continuación:
 
-### Pantalla de: Introducir datos.
-<img src="/src_appCDT/esquema0.png">
+<ul>
+  <strong>DATOS:</strong>
+  <li>
+      <strong>Se pueden introducir datos al programa de forma manual o en formatos: *.csv, *.xlsx y *.inp.</strong>
+      <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">Archivos de ejemplo (CSV, XLSX, INP)</a>
+  </li>
+  <li>
+      <strong>En el manual se describe detalladamente y con un ejemplo como ingresar los datos de la red hidraulica.</strong>
+      <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">Manual REDGENHID.pdf</a>
+  </li>
+  <li><strong>Se desplega en tablas la información ingresada.</strong></li>
+</ul>
+
+<ul>
+  <strong>RED HIDRAULICA:</strong>
+  <li><strong>Tiene multiples opciones para visualizar en la red.</strong></li>
+  <li><strong>Cuenta con un botón para visualizar la red.</strong></li>
+</ul>
+
+<img src="/src_/datos.gif">
 
 ### Pantalla de: Análisis de Redes Hidráulicas.
-<img src="/src_appCDT/esquema0.png">
+<img src="/src_/.gif">
 
 ### Pantalla de: Algoritmo Genético.
-<img src="/src_appCDT/esquema0.png">
+<img src="/src_/.gif">
  
 ### Pantalla de: Circular progressbar.
-<img src="/src_appCDT/esquema0.png">
+<img src="/src_/.gif">
 
 ## _Elementos clave y sus clases en python:_
 Como cualquier programa, se hace uso de la POO para poder representar objetos y sus respectivos atributos de la realidad. A continuacion se hará una breve descripción de los objetos utilizados en la aplicación. Para una explicación más detallada consultar el capítulo III de la tesis <LINK>. 
