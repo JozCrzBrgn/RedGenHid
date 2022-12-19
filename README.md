@@ -66,12 +66,12 @@ Esta interfaz se compone de dos **_QGroupBox_**, el de **_DATOS_** y el de **_RE
 <img src="/src_/datos.gif">
 
 ### GUI: Análisis de Redes Hidráulicas.
-En esta página se muestran los resultados del análisis de la red hidráulica utilizando el método del gradiente. El diseño mediante Qt Designer es el siguiente:
+En esta página se muestran los resultados del análisis de la red hidráulica utilizando el método del <a href="https://github.com/JozCrzBrgn/RedGenHid/blob/main/Files/GradienteHidraulico.py">gradiente hidraulico</a>. Para más detalles de la programación de este método consultar el capitulo III de la <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>. El diseño mediante Qt Designer es el siguiente:
 
 <img src="/src_/analisis.gif">
 
 ### GUI: Algoritmo Genético.
-En esta interfaz se debe dar información adicional al programa antes de poder ejecutar el algoritmo genético, el cual nos dará los diámetros óptimos para la red hidráulica.
+En esta interfaz se debe dar información adicional al programa antes de poder ejecutar el <a href="https://github.com/JozCrzBrgn/RedGenHid/blob/main/Files/AlgoritmoGenetico.py">algoritmo genético</a>, el cual nos dará los diámetros óptimos para la red hidráulica.
 
 <ul>
   <strong>Datos requeridos:</strong>
@@ -82,6 +82,8 @@ En esta interfaz se debe dar información adicional al programa antes de poder e
   <li><strong>Presión máxima y mínima.</strong></li>
   <li><strong>Diámetros a combinar.</strong></li>
 </ul>
+
+Para más detalles de la programación de este método consultar el capitulo III de la <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>. El diseño mediante Qt Designer es el siguiente:
 
 <img src="/src_/ag.gif">
  
