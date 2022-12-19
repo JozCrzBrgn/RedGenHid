@@ -27,13 +27,15 @@ programación o algoritmos genéticos.
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white)
 
 ## _Diseño de la aplicación:_
-A continuacion se hará una breve descripción de la interfaz gráfica de usuario de la aplicación. Para una explicación más detallada consultar el capítulo IV de la tesis <LINK>. 
+A continuacion se hará una breve descripción de la interfaz gráfica de usuario de la aplicación. Para una explicación más detallada consultar el capítulo IV de la tesis <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>.
 
 ### Pantalla de: Inicialización.
-<img src="/src_appCDT/esquema0.png">
+Al inicializar el programa aparecerá la ventana de **_Inicialización_** , su función es la de cargar el Progressbar desde cero hasta 100%. El diseño mediante Qt Designer es el siguiente:
+  
+<img src="/src_/init.gif">
 
 ### Menú desplegable.
-<img src="/src_appCDT/esquema0.png">
+<img src="/src_/.gif">
 
 ### Pantalla de: Introducir datos.
 <img src="/src_appCDT/esquema0.png">
