@@ -35,7 +35,16 @@ Al inicializar el programa aparecerá la ventana de **_Inicialización_** , su f
 <img src="/src_/init.gif">
 
 ### Menú desplegable.
-<img src="/src_/.gif">
+Esta es la página con la que se recibe al usuario, su única función es la de mostrar el nombre del programa y dar una pequeña reseña de su función. Independientemente de la página en la que nos encontremos, siempre estará un menú colocado en el lado izquierdo de nuestro programa que se desplegará cada que el ratón pase encima de él. Este menú nos permitirá navegar entre las diferentes paginas disponibles. El diseño mediante Qt Designer es el siguiente:
+
+<img src="/src_/menu.gif">
+
+
+
+
+
+
+
 
 ### Pantalla de: Introducir datos.
 <img src="/src_appCDT/esquema0.png">
