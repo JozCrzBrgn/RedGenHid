@@ -29,17 +29,17 @@ programación o algoritmos genéticos.
 ## _Diseño de la aplicación:_
 A continuacion se hará una breve descripción de la interfaz gráfica de usuario de la aplicación. Para una explicación más detallada consultar el capítulo IV de la tesis <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>.
 
-### Pantalla de: Inicialización.
+### GUI: Inicialización.
 Al inicializar el programa aparecerá la ventana de **_Inicialización_** , su función es la de cargar el Progressbar desde cero hasta 100%. El diseño mediante Qt Designer es el siguiente:
   
 <img src="/src_/init.gif">
 
-### Menú desplegable.
+### GUI: Menú desplegable.
 Esta es la página con la que se recibe al usuario, su única función es la de mostrar el nombre del programa y dar una pequeña reseña de su función. Independientemente de la página en la que nos encontremos, siempre estará un menú colocado en el lado izquierdo de nuestro programa que se desplegará cada que el ratón pase encima de él. Este menú nos permitirá navegar entre las diferentes paginas disponibles. El diseño mediante Qt Designer es el siguiente:
 
 <img src="/src_/menu.gif">
 
-### Pantalla de: Introducir datos.
+### GUI: Introducir datos.
 Esta interfaz se compone de dos **_QGroupBox_**, el de **_DATOS_** y el de **_RED HIDRAULICA_** que se describen a continuación:
 
 <ul>
@@ -63,17 +63,33 @@ Esta interfaz se compone de dos **_QGroupBox_**, el de **_DATOS_** y el de **_RE
 
 <img src="/src_/datos.gif">
 
-### Pantalla de: Análisis de Redes Hidráulicas.
-<img src="/src_/.gif">
+### GUI: Análisis de Redes Hidráulicas.
+En esta página se muestran los resultados del análisis de la red hidráulica utilizando el método del gradiente. El diseño mediante Qt Designer es el siguiente:
 
-### Pantalla de: Algoritmo Genético.
-<img src="/src_/.gif">
+<img src="/src_/analisis.gif">
+
+### GUI: Algoritmo Genético.
+En esta interfaz se debe dar información adicional al programa antes de poder ejecutar el algoritmo genético, el cual nos dará los diámetros óptimos para la red hidráulica.
+
+<ul>
+  <strong>Datos requeridos:</strong>
+  <li><strong>Tamaño de población.</strong></li>
+  <li><strong>Número de generaciones.</strong></li>
+  <li><strong>Tasa de mutación.</strong></li>
+  <li><strong>Velocidad máxima y mínima.</strong></li>
+  <li><strong>Presión máxima y mínima.</strong></li>
+  <li><strong>Diámetros a combinar.</strong></li>
+</ul>
+
+<img src="/src_/ag.gif">
  
-### Pantalla de: Circular progressbar.
-<img src="/src_/.gif">
+### GUI: Circular progressbar.
+Debido a que el algoritmo genético tiende a demorar en su ejecución, se informa al usuario el progreso del algoritmo usando un progressbar, de esta forma se sabe cuánto porcentaje de avance lleva. El diseño mediante Qt Designer es el siguiente:
+
+<img src="/src_/circ_prog.gif">
 
 ## _Elementos clave y sus clases en python:_
-Como cualquier programa, se hace uso de la POO para poder representar objetos y sus respectivos atributos de la realidad. A continuacion se hará una breve descripción de los objetos utilizados en la aplicación. Para una explicación más detallada consultar el capítulo III de la tesis <LINK>. 
+Como cualquier programa, se hace uso de la POO para poder representar objetos y sus respectivos atributos de la realidad. A continuacion se hará una breve descripción de los objetos utilizados en la aplicación. Para una explicación más detallada consultar el capítulo III de la tesis <a href="https://github.com/JozCrzBrgn/RedGenHid/tree/main/archivos_ejemplo_">TESIS_B190303.pdf</a>.. 
 
 ### Elemento: Nodo.
 <img src="/src_appCDT/esquema0.png">
@@ -103,4 +119,10 @@ Como cualquier programa, se hace uso de la POO para poder representar objetos y 
 #### Prop3
 #### Prop4
 
+<h3>
+  <i>Puedes descargar una demo dando click en la imagen:</i>
+</h3>
 
+<a href="https://drive.google.com/file/d/16mCfvvjA4rNxpOv869UGEddF-_7z5xna/view?usp=sharing">
+  <img src="/src_/icono.ico" width=200>
+</a>
