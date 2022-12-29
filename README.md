@@ -1,7 +1,7 @@
 # RedGenHid
 __Tesis de posgrado:__ __"ANÁLISIS HIDRÁULICO DE REDES DE DISTRIBUCION DE AGUA POTABLE, CON ALGORITMO GENÉTICO Y SU APLICACIÓN A LA RED DEL MUNICIPIO DE TEZOYUCA EN EL ESTADO DE MÉXICO".__
 
-<img src="/src_/port_ag.png">
+<img src="/src_/Algoritrmo Genetico.png">
 
 ## _Descripción:_
 A través de una aplicación utilizando Algoritmos Genéticos programada en Python y Qt Designer, se desarrolla un programa para determinar los diámetros más adecuados de tuberías en redes para que al realizar un análisis hidráulico se cumpla con las siguientes características:
